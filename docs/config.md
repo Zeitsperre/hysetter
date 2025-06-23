@@ -190,8 +190,10 @@ Example:
 
 ```yaml
 remote_raster:
-  twi: https://lynker-spatial.s3-us-west-2.amazonaws.com/gridded-resources/twi.vrt
-  fdr: https://lynker-spatial.s3-us-west-2.amazonaws.com/gridded-resources/fdr.vrt
+  twi:
+    https://lynker-spatial.s3-us-west-2.amazonaws.com/gridded-resources/twi.vrt
+  fdr:
+    https://lynker-spatial.s3-us-west-2.amazonaws.com/gridded-resources/fdr.vrt
   crop: true
   geometry_buffer: 0
 ```
