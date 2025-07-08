@@ -86,4 +86,4 @@ repos:
     - mdformat-mkdocs<4.3
     - mdformat-ruff
     - mdformat-toc
-    args: [--exclude, docs/paper/paper.md, --wrap, '88']
+    args: [--exclude, docs/paper/paper.md, --exclude, LICENSE.md, --wrap, '88']
