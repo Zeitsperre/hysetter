@@ -51,10 +51,22 @@ pip install hysetter
 ```
 
 Alternatively, `hysetter` can be installed from the `conda-forge` repository using
-[micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html/):
+[micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html/),
+`conda`, or `mamba`:
 
 ```console
 micromamba install -c conda-forge hysetter
+```
+
+You can use `conda` or `mamba` instead of `micromamba` if you prefer, but `micromamba`
+is recommended for its efficiency and ease of use.
+
+For just installing HySetter's CLI, you can first install Pixi by following the its
+[installation instructions](https://pixi.sh/latest/installation/) for your platform.
+Then, you can install HySetter using the following command:
+
+```console
+pixi global install hysetter
 ```
 
 ## Quick start

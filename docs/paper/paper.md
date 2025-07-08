@@ -11,10 +11,10 @@ tags:
 authors:
   - name: Taher Chegini
     orcid: 0000-0002-5430-6000
-    affiliation: 1
+    affiliation: '1'
 affiliations:
-  - name: Lyles School of Civil Engineering, Purdue University, West Lafayette, IN, US
-    index: 1
+  - index: 1
+    name: Lyles School of Civil Engineering, Purdue University, West Lafayette, IN, US
 date: 31 March 2025
 bibliography: paper.bib
 ---

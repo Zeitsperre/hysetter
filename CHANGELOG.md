@@ -7,7 +7,17 @@ this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix a bug in the NWIS module where due to having ":" in filenames, Windows users were
+    unable to download streamflow data. The bug was fixed by removing hours and minutes
+    from the file name. [#7](https://github.com/hyriver/hysetter/issues/7)
+
 ### Added
+
+- In the installation section, explain that `conda` and `mamba` can be used instead of
+    `micromamba` for installing HySetter.
+    [#6](https://github.com/hyriver/hysetter/issues/6)
 
 ### Changed
 

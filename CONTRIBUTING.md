@@ -168,7 +168,7 @@ installed Pixi, you need to initialize the project by running the following comm
 the root directory of the project:
 
 ```bash
-pixi install
+pixi install -e dev
 ```
 
 This will install all the necessary dependencies for the project. Once you make changes
