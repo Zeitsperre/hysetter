@@ -350,7 +350,7 @@ class Streamflow(BaseModel):
         "daily" and "instantaneous".
     within_aoi : bool, optional
         Whether to retrieve the streamflow data for USGS stations that
-        are within the AOI, by default, True.
+        are within the AOI, by default True.
     use_col : str, optional
         Instead of getting data for all stations within the AOI, get data
         for a column in the AOI dataframe that contains the USGS station
